@@ -6,12 +6,12 @@ import { createPixPayment, checkPixPayment } from "@/app/actions/pix";
 
 // ── Valores de doação ─────────────────────────────────────────────────────────
 const VALORES = [
-  { valor: 10,  label: ,   emoji: "😻" },
-  { valor: 25,  label: ,     emoji: "😻" },
-  { valor: 50,  label: ,       emoji: "😻" },
-  { valor: 100, label: ,    emoji: "😻" },
-  { valor: 200, label: , emoji: "😻" },
-  { valor: 0,   label: ,     emoji: "😻" },
+  { valor: 10,  label: "",   emoji: "😻" },
+  { valor: 25,  label: "",   emoji: "😻" },
+  { valor: 50,  label: "",   emoji: "😻" },
+  { valor: 100, label: "",   emoji: "😻" },
+  { valor: 200, label: "",   emoji: "😻" },
+  { valor: 0,   label: "",   emoji: "😻" },
 ];
 
 type PixData = {
