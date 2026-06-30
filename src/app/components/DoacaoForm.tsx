@@ -6,12 +6,12 @@ import { createPixPayment, checkPixPayment } from "@/app/actions/pix";
 
 // ── Valores de doação ─────────────────────────────────────────────────────────
 const VALORES = [
-  { valor: 10,  label: "Petisco",   emoji: "🐟" },
-  { valor: 25,  label: "Ração",     emoji: "🥣" },
-  { valor: 50,  label: "Vet",       emoji: "💊" },
-  { valor: 100, label: "Vacina",    emoji: "💉" },
-  { valor: 200, label: "Castração", emoji: "✂️" },
-  { valor: 0,   label: "Outro",     emoji: "✏️" },
+  { valor: 10,  label: ,   emoji: "😻" },
+  { valor: 25,  label: ,     emoji: "😻" },
+  { valor: 50,  label: ,       emoji: "😻" },
+  { valor: 100, label: ,    emoji: "😻" },
+  { valor: 200, label: , emoji: "😻" },
+  { valor: 0,   label: ,     emoji: "😻" },
 ];
 
 type PixData = {
@@ -123,12 +123,16 @@ export function DoacaoForm() {
           <PawPrint className="absolute bottom-3 left-12 w-5 h-5 opacity-10 rotate-6" />
           <PawPrint className="absolute bottom-3 right-12 w-5 h-5 opacity-10 -rotate-6" />
 
-          <div className="text-7xl mb-3 inline-block animate-float select-none">🐱</div>
+          <img
+  src="https://i.postimg.cc/0y9JMsrz/Whats-App-Image-2026-06-30-at-09-37-32.jpg"
+  alt="Foto da Ava"
+  className="w-28 h-28 rounded-full object-cover border-4 border-white shadow-lg mb-3 inline-block animate-float"
+/>
           <h1 className="text-2xl font-black tracking-tight mb-1.5">
-            Ajude minha Gatinha!
+            Ajude Ava com sua doação ❤️ !
           </h1>
           <p className="text-pink-100 text-sm leading-relaxed">
-            Sua doação vai direto para os cuidados da minha bichinha ❤️
+            Sua doação vai direto para os cuidados dela ❤️
           </p>
         </div>
 
